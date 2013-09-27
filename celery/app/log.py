@@ -101,9 +101,9 @@ class Logging(object):
                 root.handlers = []
 
             # Configure root logger
-            self._configure_logger(
-                root, logfile, loglevel, format, colorize, **kwargs
-            )
+            #self._configure_logger(
+            #    root, logfile, loglevel, format, colorize, **kwargs
+            #)
 
             # Configure the multiprocessing logger
             self._configure_logger(
